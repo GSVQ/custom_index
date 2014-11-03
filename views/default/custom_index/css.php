@@ -12,8 +12,9 @@
 }
 
 .container_img_text{
-	float: left;
+	display: inline-block;
     padding: 10px;
+    vertical-align: top;
 }
 .container_img img{
 	 border-radius: 10px;
