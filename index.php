@@ -32,6 +32,7 @@ if (!isloggedin()) {
 	
 	$groups = elgg_get_entities(array(
 		'type' => 'group',
+		'limit' => 0,
 		));
 	
 	
